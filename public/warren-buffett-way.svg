@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">
+  <rect width="100%" height="100%" fill="#f7fff3" />
+  <rect x="20" y="40" width="360" height="520" rx="12" fill="#fff" stroke="#dcedc8" stroke-width="6" />
+  <text x="40" y="120" font-family="Arial" font-size="22" fill="#1b3a1b">The Warren Buffett Way</text>
+  <text x="40" y="160" font-family="Arial" font-size="18" fill="#2d5a2d">Robert G. Hagstrom</text>
+</svg>

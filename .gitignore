@@ -1,0 +1,26 @@
+node_modules/
+.next/
+.env
+.env.local
+.env.*
+.vercel/
+.DS_Store
+dist/
+.vscode/
+npm-debug.log
+yarn-error.log
+coverage/
+
+# Next.js static export folder
+out/
+
+# Yarn and pnpm support (optional)
+.pnp.*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# OS files
+Thumbs.db
+desktop.ini

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">
+  <rect width="100%" height="100%" fill="#f3f0ff" />
+  <rect x="20" y="40" width="360" height="520" rx="12" fill="#fff" stroke="#e4dbff" stroke-width="6" />
+  <text x="40" y="120" font-family="Arial" font-size="22" fill="#2e1b6a">Deep Work</text>
+  <text x="40" y="160" font-family="Arial" font-size="18" fill="#473291">Cal Newport</text>
+</svg>

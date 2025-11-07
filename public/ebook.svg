@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#e6f7ff" />
+  <g transform="translate(140,120)">
+    <rect x="0" y="0" width="340" height="420" rx="16" fill="#fff" stroke="#cfeaff" stroke-width="6" />
+    <rect x="20" y="28" width="300" height="28" rx="6" fill="#cfeaff" />
+    <rect x="20" y="72" width="260" height="20" rx="4" fill="#f0f9ff" />
+    <rect x="20" y="102" width="260" height="20" rx="4" fill="#f0f9ff" />
+    <rect x="20" y="132" width="220" height="20" rx="4" fill="#f0f9ff" />
+    <text x="30" y="380" font-family="Arial" font-size="28" fill="#0f172a">eBook</text>
+  </g>
+</svg>

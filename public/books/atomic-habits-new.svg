@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  
+  <!-- Book cover -->
+  <rect x="100" y="100" width="600" height="900" rx="8" fill="#fff" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <rect x="100" y="100" width="600" height="900" rx="8" fill="none" stroke="#22c55e" stroke-width="4"/>
+  
+  <!-- Title -->
+  <text x="400" y="400" font-family="Arial" font-size="64" font-weight="bold" fill="#0f172a" text-anchor="middle">ATOMIC</text>
+  <text x="400" y="470" font-family="Arial" font-size="64" font-weight="bold" fill="#0f172a" text-anchor="middle">HABITS</text>
+  
+  <!-- Author -->
+  <text x="400" y="600" font-family="Arial" font-size="32" fill="#64748b" text-anchor="middle">James Clear</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="400" cy="300" r="60" fill="none" stroke="#22c55e" stroke-width="4"/>
+  <circle cx="400" cy="300" r="40" fill="none" stroke="#22c55e" stroke-width="4"/>
+  <circle cx="400" cy="300" r="20" fill="#22c55e"/>
+  
+  <!-- Bottom text -->
+  <text x="400" y="850" font-family="Arial" font-size="24" fill="#64748b" text-anchor="middle">#1 NEW YORK TIMES BESTSELLER</text>
+</svg>
