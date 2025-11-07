@@ -54,7 +54,9 @@ export default function BookCard({ book }) {
           <span className="text-sm text-slate-400 line-through">Rp {book.originalPrice.toLocaleString('id-ID')}</span>
         </div>
         <a 
-          href={`https://wa.me/6282141733187?text=Halo,%20saya%20tertarik%20dengan%20buku%20${encodeURIComponent(book.title)}%20(Rp%20${book.price.toLocaleString('id-ID')})`}
+          href="https://www.tokopedia.com/digimeta007"
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-full bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-xl"
         >
           🛒 Beli Sekarang

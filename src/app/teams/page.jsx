@@ -17,7 +17,7 @@ export default function Teams(){
     {
       id: 2,
       name: 'Sari Dewi',
-      picture: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face',
+      picture: '/team/sari-dewi.svg',
       role: 'Head of Operations',
       bio: 'Memastikan setiap proses berjalan lancar dan pelanggan mendapat pengalaman terbaik dalam berbelanja buku.'
     },

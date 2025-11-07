@@ -28,6 +28,7 @@ export default function Services(){
               title="Ebook Premium" 
               desc="Koleksi lengkap ebook dalam format PDF, Kindle, dan Mobi dengan kualitas terbaik dan harga terjangkau."
               icon="📚"
+              link="https://lynk.id/digimetashop007"
             />
             <ServiceCard 
               title="Request Buku Langka" 
