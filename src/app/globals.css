@@ -3,7 +3,26 @@
 @tailwind utilities;
 
 html, body, #__next { height: 100%; }
-body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto; background: linear-gradient(180deg,#CFE9FF 0%, #E8F7FF 100%); }
+body { 
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto; 
+  background: linear-gradient(135deg, #F0F9FF 0%, #E6F3FF 100%);
+  color: theme('colors.text.primary');
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold tracking-tight;
+  }
+  h2 {
+    @apply text-3xl font-semibold tracking-tight;
+  }
+  h3 {
+    @apply text-2xl font-semibold;
+  }
+  p {
+    @apply text-text-secondary leading-relaxed;
+  }
+}
 
 @layer utilities {
   .glass-effect {

@@ -1,6 +1,60 @@
-User-agent: *
-Allow: /
-Disallow: /create-blog
-Disallow: /login
+import Image from "next/image";
+import { useState, useEffect } from "react";
 
-Sitemap: https://www.digimetashop.com/sitemap.xml
+export default function BookSlider() {
+  const books = [
+    { title: "Atomic Habits", author: "James Clear", image: "/publicbook/atomic-habits.jpg" },
+    { title: "Rich Dad Poor Dad", author: "Robert Kiyosaki", image: "/publicbook/rich-dad-poor-dad.jpg" },
+    { title: "The Psychology of Money", author: "Morgan Housel", image: "/publicbook/psychology-of-money.jpg" },
+    { title: "Deep Work", author: "Cal Newport", image: "/publicbook/deep-work.jpg" },
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // otomatis geser setiap 3.5 detik
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % books.length);
+    }, 3500);
+    return () => clearInterval(interval);
+  }, [books.length]);
+
+  return (
+    <div className="relative flex flex-col items-center justify-center py-10">
+      <div className="w-[220px] h-[320px] overflow-hidden rounded-xl shadow-lg animate-fade-in">
+        <Image
+          src={books[currentIndex].image}
+          alt={books[currentIndex].title}
+          width={220}
+          height={320}
+          className="object-cover rounded-xl"
+          loading="lazy"
+        />
+      </div>
+
+      <h2 className="mt-4 text-xl font-semibold text-center animate-slide-up">
+        {books[currentIndex].title}
+      </h2>
+      <p className="text-gray-600 animate-fade-in">
+        {books[currentIndex].author}
+      </p>
+
+      <div className="flex gap-4 mt-6">
+        <button
+          onClick={() =>
+            setCurrentIndex((prev) => (prev - 1 + books.length) % books.length)
+          }
+          className="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300 transition"
+        >
+          ← Prev
+        </button>
+        <button
+          onClick={() => setCurrentIndex((prev) => (prev + 1) % books.length)}
+          className="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300 transition"
+        >
+          Next →
+        </button>
+      </div>
+    </div>
+  );
+}

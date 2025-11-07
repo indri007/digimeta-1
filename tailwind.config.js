@@ -4,9 +4,16 @@ module.exports = {
   theme: { 
     extend: { 
       colors: { 
-        primary: '#A7D8FF',
-        'primary-dark': '#7CC4FA',
-        'primary-light': '#D1E9FF'
+        primary: '#0088FF',
+        'primary-dark': '#0066CC',
+        'primary-light': '#E6F3FF',
+        'surface': '#FFFFFF',
+        'surface-hover': '#F8FAFC',
+        'text': {
+          primary: '#1E293B',
+          secondary: '#64748B',
+          light: '#94A3B8'
+        }
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
