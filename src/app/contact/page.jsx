@@ -1,11 +1,6 @@
 "use client"
 import { useState } from 'react'
 
-export const metadata = {
-  title: 'Hubungi Kami',
-  description: 'Hubungi DigimetaShop untuk pertanyaan, request buku, atau kerja sama. Kami siap membantu Anda 24/7.',
-}
-
 export default function Contact(){
   const [formData, setFormData] = useState({
     name: '',
