@@ -28,7 +28,7 @@ export default function BookCard({ book }) {
         <img 
           src={imageError ? placeholderSVG : book.image}
           alt={book.title}
-          className="w-full h-64 object-cover rounded-lg mb-4 transform group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-64 object-contain rounded-lg mb-4 transform group-hover:scale-105 transition-transform duration-300"
           onError={() => setImageError(true)}
           loading="lazy"
         />
