@@ -30,8 +30,8 @@ export default function BookSlider() {
     { 
       title: "The Warren Buffett Way",
       author: "Robert G. Hagstrom",
-      image: "/book-covers/warren-buffett-way.jpg",
-      fallback: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='450' viewBox='0 0 300 450'%3E%3Cdefs%3E%3ClinearGradient id='grad2' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231e1b4b;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%230f0a2e;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad2)'/%3E%3Ctext x='150' y='100' font-family='Georgia, serif' font-size='28' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3ETHE%3C/text%3E%3Ctext x='150' y='150' font-family='Georgia, serif' font-size='38' font-weight='bold' fill='%23a78bfa' text-anchor='middle'%3EWARREN%3C/text%3E%3Ctext x='150' y='200' font-family='Georgia, serif' font-size='38' font-weight='bold' fill='%23a78bfa' text-anchor='middle'%3EBUFFETT%3C/text%3E%3Ctext x='150' y='250' font-family='Georgia, serif' font-size='38' font-weight='bold' fill='%23a78bfa' text-anchor='middle'%3EWAY%3C/text%3E%3Cpath d='M80,300 L120,280 L160,290 L200,260 L240,270' fill='none' stroke='%238b5cf6' stroke-width='3'/%3E%3Cpath d='M240,270 L255,255 L245,260 L245,245 L235,245 L235,260 L225,255 Z' fill='%238b5cf6'/%3E%3Ctext x='150' y='380' font-family='Georgia, serif' font-size='18' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3ERobert G. Hagstrom%3C/text%3E%3C/svg%3E"
+      image: "/books/71MDz2FR1dL._SL1500_.svg",
+      fallback: "/books/71MDz2FR1dL._SL1500_.svg"
     }
   ];
 
