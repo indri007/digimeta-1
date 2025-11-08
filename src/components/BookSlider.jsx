@@ -59,7 +59,7 @@ export default function BookSlider() {
         <img
           src={books[currentIndex].fallback}
           alt={books[currentIndex].title}
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
           onError={(e) => {
             // Jika gambar gagal load, gunakan placeholder
             e.target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='600' viewBox='0 0 400 600'%3E%3Crect width='100%25' height='100%25' fill='%23f1f5f9'/%3E%3Crect x='40' y='40' width='320' height='520' rx='8' fill='white' stroke='%23cbd5e1' stroke-width='2'/%3E%3Ctext x='200' y='280' font-family='Arial' font-size='24' fill='%2364748b' text-anchor='middle'%3E${books[currentIndex].title}%3C/text%3E%3Ctext x='200' y='320' font-family='Arial' font-size='18' fill='%2394a3b8' text-anchor='middle'%3E${books[currentIndex].author}%3C/text%3E%3Ctext x='200' y='380' font-family='Arial' font-size='64' text-anchor='middle'%3E📚%3C/text%3E%3C/svg%3E`;
