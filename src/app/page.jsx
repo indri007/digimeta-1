@@ -69,7 +69,7 @@ const books = [
     {
       title: "The Warren Buffett Way",
       author: "Robert G. Hagstrom",
-      image: "/book-covers/warren-buffett-way.jpg",
+      image: "/books/71MDz2FR1dL._SL1500_.svg",
       price: 52000,
       originalPrice: 104000,
       discount: 50,
