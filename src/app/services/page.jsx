@@ -52,46 +52,46 @@ export default function Services(){
             <p className="text-lg text-slate-600">Lebih dari 5000+ judul dalam berbagai kategori</p>
           </div>
           <div className="grid md:grid-cols-4 gap-6">
-            <div className="p-6 glass-effect rounded-2xl text-center hover-lift">
+            <a href="https://www.tiktok.com/@ibuibu_digiital" target="_blank" rel="noopener noreferrer" className="p-6 glass-effect rounded-2xl text-center hover-lift cursor-pointer transition-all duration-300 hover:shadow-xl">
               <div className="text-4xl mb-4">💼</div>
               <h3 className="font-bold text-lg mb-2">Bisnis & Keuangan</h3>
               <p className="text-sm text-slate-600">500+ judul</p>
-            </div>
-            <div className="p-6 glass-effect rounded-2xl text-center hover-lift">
+            </a>
+            <a href="https://www.tiktok.com/@sofskillleadership" target="_blank" rel="noopener noreferrer" className="p-6 glass-effect rounded-2xl text-center hover-lift cursor-pointer transition-all duration-300 hover:shadow-xl">
               <div className="text-4xl mb-4">🌱</div>
               <h3 className="font-bold text-lg mb-2">Pengembangan Diri</h3>
               <p className="text-sm text-slate-600">800+ judul</p>
-            </div>
-            <div className="p-6 glass-effect rounded-2xl text-center hover-lift">
+            </a>
+            <a href="https://www.tiktok.com/@ebookfiksi.id" target="_blank" rel="noopener noreferrer" className="p-6 glass-effect rounded-2xl text-center hover-lift cursor-pointer transition-all duration-300 hover:shadow-xl">
               <div className="text-4xl mb-4">📖</div>
               <h3 className="font-bold text-lg mb-2">Novel & Fiksi</h3>
               <p className="text-sm text-slate-600">1200+ judul</p>
-            </div>
-            <div className="p-6 glass-effect rounded-2xl text-center hover-lift">
+            </a>
+            <a href="https://www.tiktok.com/@digimetashop" target="_blank" rel="noopener noreferrer" className="p-6 glass-effect rounded-2xl text-center hover-lift cursor-pointer transition-all duration-300 hover:shadow-xl">
               <div className="text-4xl mb-4">🎓</div>
               <h3 className="font-bold text-lg mb-2">Pendidikan</h3>
               <p className="text-sm text-slate-600">600+ judul</p>
-            </div>
-            <div className="p-6 glass-effect rounded-2xl text-center hover-lift">
+            </a>
+            <a href="https://www.tiktok.com/@codingdeveloper.id" target="_blank" rel="noopener noreferrer" className="p-6 glass-effect rounded-2xl text-center hover-lift cursor-pointer transition-all duration-300 hover:shadow-xl">
               <div className="text-4xl mb-4">💻</div>
               <h3 className="font-bold text-lg mb-2">Teknologi</h3>
               <p className="text-sm text-slate-600">400+ judul</p>
-            </div>
-            <div className="p-6 glass-effect rounded-2xl text-center hover-lift">
+            </a>
+            <a href="https://www.tiktok.com/@digimeta007.com" target="_blank" rel="noopener noreferrer" className="p-6 glass-effect rounded-2xl text-center hover-lift cursor-pointer transition-all duration-300 hover:shadow-xl">
               <div className="text-4xl mb-4">🍳</div>
               <h3 className="font-bold text-lg mb-2">Kuliner & Lifestyle</h3>
               <p className="text-sm text-slate-600">300+ judul</p>
-            </div>
-            <div className="p-6 glass-effect rounded-2xl text-center hover-lift">
+            </a>
+            <a href="https://www.tiktok.com/@ebookhidupsehat" target="_blank" rel="noopener noreferrer" className="p-6 glass-effect rounded-2xl text-center hover-lift cursor-pointer transition-all duration-300 hover:shadow-xl">
               <div className="text-4xl mb-4">🏥</div>
               <h3 className="font-bold text-lg mb-2">Kesehatan</h3>
               <p className="text-sm text-slate-600">250+ judul</p>
-            </div>
-            <div className="p-6 glass-effect rounded-2xl text-center hover-lift">
+            </a>
+            <a href="https://www.tiktok.com/@parentwise.id" target="_blank" rel="noopener noreferrer" className="p-6 glass-effect rounded-2xl text-center hover-lift cursor-pointer transition-all duration-300 hover:shadow-xl">
               <div className="text-4xl mb-4">🎨</div>
               <h3 className="font-bold text-lg mb-2">Seni & Kreativitas</h3>
               <p className="text-sm text-slate-600">200+ judul</p>
-            </div>
+            </a>
           </div>
         </div>
       </section>

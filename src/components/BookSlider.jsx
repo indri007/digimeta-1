@@ -12,8 +12,8 @@ export default function BookSlider() {
     { 
       title: "Rich Dad Poor Dad",
       author: "Robert T. Kiyosaki",
-      image: "/book-covers/rich-dad-poor-dad.jpg",
-      fallback: "https://images-na.ssl-images-amazon.com/images/I/51u8ZRDCVoL._SX330_BO1,204,203,200_.jpg"
+      image: "/books/rich-dad-poor-dad-9.svg",
+      fallback: "/books/rich-dad-poor-dad-9.svg"
     },
     { 
       title: "The Psychology of Money",
@@ -24,8 +24,8 @@ export default function BookSlider() {
     { 
       title: "Deep Work",
       author: "Cal Newport",
-      image: "/book-covers/deep-work.jpg",
-      fallback: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='450' viewBox='0 0 300 450'%3E%3Crect width='100%25' height='100%25' fill='%231e293b'/%3E%3Crect x='20' y='20' width='260' height='150' fill='%23334155'/%3E%3Ctext x='150' y='90' font-family='Arial, sans-serif' font-size='48' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EDEEP%3C/text%3E%3Ctext x='150' y='150' font-family='Arial, sans-serif' font-size='48' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EWORK%3C/text%3E%3Ccircle cx='150' cy='280' r='40' fill='none' stroke='%233b82f6' stroke-width='3'/%3E%3Ccircle cx='150' cy='280' r='25' fill='none' stroke='%233b82f6' stroke-width='2'/%3E%3Ccircle cx='150' cy='280' r='5' fill='%233b82f6'/%3E%3Ctext x='150' y='390' font-family='Arial, sans-serif' font-size='20' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3ECal Newport%3C/text%3E%3C/svg%3E"
+      image: "/books/Deep-Work-by-Cal-Newport-Book.svg",
+      fallback: "/books/Deep-Work-by-Cal-Newport-Book.svg"
     },
     { 
       title: "The Warren Buffett Way",
@@ -59,7 +59,7 @@ export default function BookSlider() {
         <img
           src={books[currentIndex].fallback}
           alt={books[currentIndex].title}
-          className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
+          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
           onError={(e) => {
             // Jika gambar gagal load, gunakan placeholder
             e.target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='600' viewBox='0 0 400 600'%3E%3Crect width='100%25' height='100%25' fill='%23f1f5f9'/%3E%3Crect x='40' y='40' width='320' height='520' rx='8' fill='white' stroke='%23cbd5e1' stroke-width='2'/%3E%3Ctext x='200' y='280' font-family='Arial' font-size='24' fill='%2364748b' text-anchor='middle'%3E${books[currentIndex].title}%3C/text%3E%3Ctext x='200' y='320' font-family='Arial' font-size='18' fill='%2394a3b8' text-anchor='middle'%3E${books[currentIndex].author}%3C/text%3E%3Ctext x='200' y='380' font-family='Arial' font-size='64' text-anchor='middle'%3E📚%3C/text%3E%3C/svg%3E`;

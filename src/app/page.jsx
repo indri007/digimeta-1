@@ -38,7 +38,7 @@ const books = [
     {
       title: "Deep Work",
       author: "Cal Newport",
-      image: "/book-covers/deep-work.jpg",
+      image: "/books/Deep-Work-by-Cal-Newport-Book.svg",
       price: 42000,
       originalPrice: 85000,
       discount: 51,
@@ -54,7 +54,7 @@ const books = [
     {
       title: "Rich Dad Poor Dad",
       author: "Robert T. Kiyosaki",
-      image: "https://m.media-amazon.com/images/I/51u8ZRDCVoL.jpg",
+      image: "/books/rich-dad-poor-dad-9.svg",
       price: 48000,
       originalPrice: 92000,
       discount: 48,
@@ -174,7 +174,7 @@ export default function Home(){
         </div>
       </section>
 
-      {/* Keunggulan - JANGAN HAPUS SECTION INI */}
+      {/* Keunggulan */}
       <section className="py-20 bg-gradient-to-br from-primary-light/30 to-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
@@ -183,13 +183,46 @@ export default function Home(){
           </div>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="text-center p-6 glass-effect rounded-2xl hover-lift">
+              <div className="text-4xl mb-4">⚡</div>
+              <h3 className="font-bold text-lg mb-2">Instant Download</h3>
+              <p className="text-sm text-slate-600">Dapatkan buku langsung setelah pembayaran</p>
+            </div>
+            <div className="text-center p-6 glass-effect rounded-2xl hover-lift">
+              <div className="text-4xl mb-4">🔒</div>
+              <h3 className="font-bold text-lg mb-2">Aman & Terpercaya</h3>
+              <p className="text-sm text-slate-600">Transaksi aman dengan garansi uang kembali</p>
+            </div>
+            <div className="text-center p-6 glass-effect rounded-2xl hover-lift">
+              <div className="text-4xl mb-4">📱</div>
+              <h3 className="font-bold text-lg mb-2">Multi Format</h3>
+              <p className="text-sm text-slate-600">PDF, Kindle, Mobi - semua format tersedia</p>
+            </div>
+            <div className="text-center p-6 glass-effect rounded-2xl hover-lift">
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="font-bold text-lg mb-2">Request Khusus</h3>
+              <p className="text-sm text-slate-600">Buku langka? Kami carikan untuk Anda</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimoni - SECTION INI TETAP */}
+      <section className="py-20">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Testimoni Pembaca</h2>
+            <p className="text-lg text-slate-600">Apa kata mereka yang sudah merasakan layanan kami</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* TESTIMONI CARDS TETAP DISINI */}
+            <div className="text-center p-6 glass-effect rounded-2xl hover-lift">
               <div className="absolute top-4 right-4 z-10">
                 <span className="bg-red-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">-49%</span>
               </div>
               <div className="p-6 bg-gradient-to-br from-blue-50 to-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-100/0 to-blue-100/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img 
-                  src="https://images-na.ssl-images-amazon.com/images/I/51Tlm0GZTXL._SX329_BO1,204,203,200_.jpg" 
+                  src="https://m.media-amazon.com/images/I/51Tlm0GZTXL.jpg" 
                   alt="Atomic Habits"
                   className="w-full h-64 object-cover rounded-lg mb-4 transform group-hover:scale-105 transition-transform duration-300"
                 />
@@ -229,7 +262,7 @@ export default function Home(){
               <div className="p-6 bg-gradient-to-br from-green-50 to-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-green-100/0 to-green-100/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img 
-                  src="https://m.media-amazon.com/images/I/41r6F4dd6eL.jpg" 
+                  src="/books/OIP.svg" 
                   alt="The Psychology of Money"
                   className="w-full h-64 object-cover rounded-lg mb-4 transform group-hover:scale-105 transition-transform duration-300"
                 />
@@ -265,7 +298,7 @@ export default function Home(){
               <div className="p-6 bg-gradient-to-br from-purple-50 to-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-purple-100/0 to-purple-100/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img 
-                  src="https://m.media-amazon.com/images/I/41p2iFN7GbL.jpg" 
+                  src="/books/Deep-Work-by-Cal-Newport-Book.svg" 
                   alt="Deep Work"
                   className="w-full h-64 object-cover rounded-lg mb-4 transform group-hover:scale-105 transition-transform duration-300"
                 />
@@ -302,7 +335,7 @@ export default function Home(){
               <div className="p-6 bg-gradient-to-br from-amber-50 to-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-amber-100/0 to-amber-100/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img 
-                  src="https://images-na.ssl-images-amazon.com/images/I/51u8ZRDCVoL._SX330_BO1,204,203,200_.jpg" 
+                  src="/books/rich-dad-poor-dad-9.svg" 
                   alt="Rich Dad Poor Dad"
                   className="w-full h-64 object-cover rounded-lg mb-4 transform group-hover:scale-105 transition-transform duration-300"
                 />
@@ -338,7 +371,7 @@ export default function Home(){
               <div className="p-6 bg-gradient-to-br from-indigo-50 to-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-indigo-100/0 to-indigo-100/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img 
-                  src="https://m.media-amazon.com/images/I/51cOF7qWJyL.jpg" 
+                  src="/books/71MDz2FR1dL._SL1500_.svg" 
                   alt="The Warren Buffett Way"
                   className="w-full h-64 object-cover rounded-lg mb-4 transform group-hover:scale-105 transition-transform duration-300"
                 />
