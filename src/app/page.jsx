@@ -22,7 +22,7 @@ const books = [
     {
       title: "The Psychology of Money",
       author: "Morgan Housel",
-      image: "/book-covers/psychology-of-money.jpg",
+      image: "/books/OIP.svg",
       price: 50000,
       originalPrice: 95000,
       discount: 47,

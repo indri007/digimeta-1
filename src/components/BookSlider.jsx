@@ -18,8 +18,8 @@ export default function BookSlider() {
     { 
       title: "The Psychology of Money",
       author: "Morgan Housel",
-      image: "/book-covers/psychology-of-money.jpg",
-      fallback: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='450' viewBox='0 0 300 450'%3E%3Cdefs%3E%3ClinearGradient id='grad1' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%231e3a8a;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%230c1e47;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad1)'/%3E%3Ctext x='150' y='120' font-family='Georgia, serif' font-size='32' font-weight='bold' fill='%23fbbf24' text-anchor='middle'%3ETHE%3C/text%3E%3Ctext x='150' y='170' font-family='Georgia, serif' font-size='38' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EPSYCHOLOGY%3C/text%3E%3Ctext x='150' y='220' font-family='Georgia, serif' font-size='38' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EOF MONEY%3C/text%3E%3Ccircle cx='100' cy='320' r='25' fill='%23fbbf24' opacity='0.3'/%3E%3Ccircle cx='200' cy='300' r='30' fill='%23fbbf24' opacity='0.2'/%3E%3Ctext x='150' y='400' font-family='Georgia, serif' font-size='20' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EMorgan Housel%3C/text%3E%3C/svg%3E"
+      image: "/books/OIP.svg",
+      fallback: "/books/OIP.svg"
     },
     { 
       title: "Deep Work",
