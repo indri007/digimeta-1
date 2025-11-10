@@ -3,7 +3,10 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 export default function CreateBlog(){
-  const router = useRouter(); const [auth,setAuth]=useState(false); const [title,setTitle]=useState(''); const [content,setContent]=useState('')
+  const router = useRouter(); 
+  const [auth,setAuth]=useState(false); 
+  const [title,setTitle]=useState(''); 
+  const [content,setContent]=useState('')
   useEffect(()=>{ const t = localStorage.getItem('dm_token'); if(!t) router.push('/login'); else setAuth(true) },[router])
   function submit(e){ e.preventDefault(); const saved = JSON.parse(localStorage.getItem('dm_posts')||'[]'); saved.unshift({title, excerpt: content.slice(0,120), author:'Admin', slug: title.toLowerCase().replace(/\s+/g,'-')}); localStorage.setItem('dm_posts', JSON.stringify(saved)); router.push('/blog') }
   if(!auth) return <div className="p-6">Redirecting...</div>

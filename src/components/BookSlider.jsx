@@ -12,8 +12,8 @@ export default function BookSlider() {
     { 
       title: "Rich Dad Poor Dad",
       author: "Robert T. Kiyosaki",
-      image: "/books/rich-dad-poor-dad-9.svg",
-      fallback: "/books/rich-dad-poor-dad-9.svg"
+      image: "/books/rich-dad-poor-dad-9.webp",
+      fallback: "/books/rich-dad-poor-dad-9.webp"
     },
     { 
       title: "The Psychology of Money",

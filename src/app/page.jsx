@@ -54,7 +54,7 @@ const books = [
     {
       title: "Rich Dad Poor Dad",
       author: "Robert T. Kiyosaki",
-      image: "/books/rich-dad-poor-dad-9.svg",
+      image: "/books/rich-dad-poor-dad-9.webp",
       price: 48000,
       originalPrice: 92000,
       discount: 48,
@@ -335,7 +335,7 @@ export default function Home(){
               <div className="p-6 bg-gradient-to-br from-amber-50 to-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-amber-100/0 to-amber-100/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <img 
-                  src="/books/rich-dad-poor-dad-9.svg" 
+                  src="/books/rich-dad-poor-dad-9.webp" 
                   alt="Rich Dad Poor Dad"
                   className="w-full h-64 object-cover rounded-lg mb-4 transform group-hover:scale-105 transition-transform duration-300"
                 />

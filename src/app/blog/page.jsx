@@ -11,42 +11,50 @@ export default function BlogList(){
       setPosts(JSON.parse(s))
     } else {
       const defaultPosts = [
-        {
+          {
+          id: 1,
           title: '5 Buku Bisnis Wajib Baca untuk Entrepreneur',
-          excerpt: 'Rekomendasi buku bisnis terbaik yang akan mengubah cara pandang Anda tentang entrepreneurship dan kesuksesan.',
+          excerpt:
+            'Rekomendasi buku bisnis terbaik yang akan mengubah cara pandang Anda tentang entrepreneurship dan kesuksesan.',
           author: 'Admin DigimetaShop',
           slug: 'buku-bisnis-entrepreneur',
           date: '2024-01-15',
           category: 'Bisnis',
-          image: '💼'
+          image: '💼',
         },
         {
+          id: 2,
           title: 'Cara Memilih Format eBook yang Tepat',
-          excerpt: 'Panduan lengkap memilih antara PDF, Kindle, atau Mobi sesuai dengan kebutuhan dan perangkat Anda.',
+          excerpt:
+            'Panduan lengkap memilih antara PDF, Kindle, atau Mobi sesuai dengan kebutuhan dan perangkat Anda.',
           author: 'Tim DigimetaShop',
           slug: 'format-ebook',
           date: '2024-01-10',
           category: 'Tips',
-          image: '📱'
+          image: '📱',
         },
         {
+          id: 3,
           title: 'Atomic Habits: Ringkasan dan Review',
-          excerpt: 'Review mendalam tentang buku Atomic Habits karya James Clear dan bagaimana menerapkannya dalam kehidupan.',
+          excerpt:
+            'Review mendalam tentang buku Atomic Habits karya James Clear dan bagaimana menerapkannya dalam kehidupan.',
           author: 'Budi Santoso',
           slug: 'atomic-habits-review',
           date: '2024-01-05',
           category: 'Review',
-          image: '📚'
+          image: '📚',
         },
         {
+          id: 4,
           title: 'Tips Belanja Buku Online yang Aman',
-          excerpt: 'Panduan praktis untuk berbelanja buku digital dengan aman dan menghindari penipuan online.',
+          excerpt:
+            'Panduan praktis untuk berbelanja buku digital dengan aman dan menghindari penipuan online.',
           author: 'Admin DigimetaShop',
           slug: 'tips-aman',
           date: '2024-01-01',
           category: 'Tips',
-          image: '🔒'
-        }
+          image: '🔒',
+        },
       ]
       setPosts(defaultPosts)
       localStorage.setItem('dm_posts', JSON.stringify(defaultPosts))
@@ -86,6 +94,7 @@ export default function BlogList(){
             <div className="grid md:grid-cols-2 gap-8">
               {posts.map((post, i) => (
                 <article key={i} className="group glass-effect rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover-lift">
+                 <Link href={`/blog/${post.slug}`}>
                   <div className="bg-gradient-to-br from-primary to-primary-dark p-8 text-center">
                     <div className="text-6xl mb-2">{post.image || '📚'}</div>
                     <span className="inline-block px-4 py-1 bg-white/90 text-slate-900 rounded-full text-sm font-semibold">
@@ -104,7 +113,8 @@ export default function BlogList(){
                       </span>
                       <span>{post.date || 'Baru saja'}</span>
                     </div>
-                  </div>
+                  </div>            
+                 </Link>
                 </article>
               ))}
             </div>

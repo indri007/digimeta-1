@@ -34,6 +34,7 @@ export default function Services(){
               title="Request Buku Langka" 
               desc="Tidak menemukan buku yang dicari? Kami siap membantu mencari dan menyediakan buku langka sesuai kebutuhan Anda."
               icon="🔍"
+              link="/request-buku-langka"
             />
             <ServiceCard 
               title="Paket Koleksi & Gift" 
